@@ -186,7 +186,7 @@
       "value": "microsoft/dotnet-buildtools-prereqs:image-builder-nanoserver-20170520053238"
     },
     "image-builder.args": {
-      "value": "--command build --manifest manifest.json --push --username $(PB.docker.username) --password $(PB.docker.password)",
+      "value": "--dry-run --command build --manifest manifest.json --push --username $(PB.docker.username) --password $(PB.docker.password)",
       "allowOverride": true
     },
     "image-builder.containerName": {
